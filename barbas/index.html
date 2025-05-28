@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurant Barbas Bio Farm</title> <script src="https://cdn.tailwindcss.com"></script>
+    <title>Restaurant Barbas Bio Farm</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     <style>
         body {
@@ -15,7 +16,7 @@
             background-size: cover;
             background-position: center;
         }
-        .menu-item-description, .about-text, .contact-text, .gallery-text, .welcome-text, .nav-item, .section-title, .footer-text, .event-text, .review-text {
+        .menu-item-description, .about-text, .contact-text, .gallery-text, .welcome-text, .nav-item, .section-title, .footer-text, .event-text {
             transition: opacity 0.3s ease-in-out;
         }
         .hidden-lang {
@@ -87,10 +88,6 @@
             font-size: 1.25rem; /* 20px */
             font-weight: 600;
         }
-        .review-card {
-            background-color: #FFFFFF; /* White background for review cards */
-            border: 1px solid #EAE0D5; /* Light beige border */
-        }
 
     </style>
 </head>
@@ -101,7 +98,8 @@
             <div class="flex items-center justify-between">
                 <div>
                     <a href="#home" class="text-lg sm:text-xl md:text-2xl font-bold text-olive-dark playfair">
-                        <span class="lang-en">Restaurant Barbas Bio Farm</span> <span class="lang-sq hidden-lang">Restorant Barbas Bio Fermë</span>
+                        <span class="lang-en">Restaurant Barbas Bio Farm</span>
+                        <span class="lang-sq hidden-lang">Restorant Barbas Bio Fermë</span>
                     </a>
                 </div>
 
@@ -125,10 +123,6 @@
                     <a href="#events" class="nav-item text-gray-700 hover:text-olive-medium px-3 py-2 rounded-md text-sm font-medium">
                         <span class="lang-en">Events</span>
                         <span class="lang-sq hidden-lang">Evente</span>
-                    </a>
-                    <a href="#reviews" class="nav-item text-gray-700 hover:text-olive-medium px-3 py-2 rounded-md text-sm font-medium">
-                        <span class="lang-en">Reviews</span>
-                        <span class="lang-sq hidden-lang">Vlerësime</span>
                     </a>
                     <a href="#contact" class="nav-item text-gray-700 hover:text-olive-medium px-3 py-2 rounded-md text-sm font-medium">
                         <span class="lang-en">Contact</span>
@@ -176,10 +170,6 @@
                     <span class="lang-en">Events</span>
                     <span class="lang-sq hidden-lang">Evente</span>
                 </a>
-                 <a href="#reviews" class="nav-item block text-gray-700 hover:bg-green-50 hover:text-olive-medium px-3 py-2 rounded-md text-base font-medium">
-                    <span class="lang-en">Reviews</span>
-                    <span class="lang-sq hidden-lang">Vlerësime</span>
-                </a>
                 <a href="#contact" class="nav-item block text-gray-700 hover:bg-green-50 hover:text-olive-medium px-3 py-2 rounded-md text-base font-medium">
                     <span class="lang-en">Contact</span>
                     <span class="lang-sq hidden-lang">Kontakti</span>
@@ -191,7 +181,8 @@
     <header id="home" class="hero-bg pt-32 pb-16 md:pt-48 md:pb-32 text-white text-center">
         <div class="container mx-auto px-6 bg-black bg-opacity-60 py-10 rounded-lg">
             <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 playfair welcome-text">
-                <span class="lang-en">Welcome to Restaurant Barbas Bio Farm</span> <span class="lang-sq hidden-lang">Mirësevini në Restorant Barbas Bio Fermë</span>
+                <span class="lang-en">Welcome to Restaurant Barbas Bio Farm</span>
+                <span class="lang-sq hidden-lang">Mirësevini në Restorant Barbas Bio Fermë</span>
             </h1>
             <p class="text-lg md:text-xl mb-8 welcome-text">
                 <span class="lang-en">Savor the freshness of the pastoral life. Olives, Pomegranates, Wine & More.</span>
@@ -212,15 +203,12 @@
             </h2>
             <div class="flex flex-col md:flex-row items-center">
                 <div class="md:w-1/2 mb-8 md:mb-0 md:pr-8">
-                    <img src="https://placehold.co/600x400/D2B48C/3A3B3C?text=Our+Rustic+Farmhouse+Haven" alt="Barbas Bio Farm Rustic Charm" class="rounded-lg shadow-xl w-full h-auto object-cover" onerror="this.onerror=null;this.src='https://placehold.co/600x400/E0E0E0/B0B0B0?text=Image+Not+Available';">
-                     <p class="text-xs text-gray-500 text-center mt-1">
-                        <span class="lang-en">Image: The rustic heart of our bio farm</span>
-                        <span class="lang-sq hidden-lang">Imazhi: Zemra rustike e bio fermës sonë</span>
-                    </p>
+                    <img src="https://i.imgur.com/77fBCNX.jpeg" alt="Barbas Bio Farm Rustic Charm" class="rounded-lg shadow-xl w-full h-auto object-cover" onerror="this.onerror=null;this.src='https://placehold.co/600x400/E0E0E0/B0B0B0?text=Image+Not+Available';">
                 </div>
                 <div class="md:w-1/2">
                     <p class="about-text text-gray-700 leading-relaxed mb-4">
-                        <span class="lang-en">Nestled in the beautiful Albanian countryside, Restaurant Barbas Bio Farm began in 2015 with a simple mission: to share the bounty of our land through delicious, honestly-prepared food. We cultivate our own organic produce like olives and pomegranates, and raise animals with care, ensuring every dish served is fresh, seasonal, and full of natural flavor. Our relaxed beer garden atmosphere invites you to unwind with fine local wines and hearty meals.</span> <span class="lang-sq hidden-lang">I vendosur në fshatin e bukur shqiptar, Restorant Barbas Bio Fermë filloi në 2015 me një mision të thjeshtë: të ndajmë begatinë e tokës sonë përmes ushqimit të shijshëm dhe të përgatitur me ndershmëri. Ne kultivojmë prodhimet tona organike si ullinjtë dhe shegët, dhe rrisim kafshët me kujdes, duke siguruar që çdo pjatë e shërbyer të jetë e freskët, sezonale dhe plot shije natyrale. Atmosfera jonë e relaksuar e kopshtit të birrës ju fton të çlodheni me verëra të mira vendase dhe vakte të përzemërta.</span>
+                        <span class="lang-en">Nestled in the beautiful Albanian countryside, Restaurant Barbas Bio Farm began in 2015 with a simple mission: to share the bounty of our land through delicious, honestly-prepared food. We cultivate our own organic produce like olives and pomegranates, and raise animals with care, ensuring every dish served is fresh, seasonal, and full of natural flavor. Our relaxed beer garden atmosphere invites you to unwind with fine local wines and hearty meals.</span>
+                        <span class="lang-sq hidden-lang">I vendosur në fshatin e bukur shqiptar, Restorant Barbas Bio Fermë filloi në 2015 me një mision të thjeshtë: të ndajmë begatinë e tokës sonë përmes ushqimit të shijshëm dhe të përgatitur me ndershmëri. Ne kultivojmë prodhimet tona organike si ullinjtë dhe shegët, dhe rrisim kafshët me kujdes, duke siguruar që çdo pjatë e shërbyer të jetë e freskët, sezonale dhe plot shije natyrale. Atmosfera jonë e relaksuar e kopshtit të birrës ju fton të çlodheni me verëra të mira vendase dhe vakte të përzemërta.</span>
                     </p>
                     <p class="about-text text-gray-700 leading-relaxed">
                         <span class="lang-en">Join us for a unique dining experience where tradition meets sustainability, and every meal tells a story of our commitment to quality and nature.</span>
@@ -239,21 +227,21 @@
             </h2>
             <div class="grid md:grid-cols-3 gap-8">
                 <div class="menu-category-card">
-                    <img src="https://placehold.co/400x300/D70040/FFFFFF?text=Albanian+Delicacy" alt="Albanian Favorites" class="menu-category-image" onerror="this.onerror=null;this.src='https://placehold.co/400x300/E0E0E0/B0B0B0?text=Image+Not+Available';">
+                    <img src="https://i.imgur.com/GDzShaW.jpeg" alt="Albanian Favorites" class="menu-category-image" onerror="this.onerror=null;this.src='https://placehold.co/400x300/E0E0E0/B0B0B0?text=Image+Not+Available';">
                     <h3 class="menu-category-title text-olive-dark playfair">
                         <span class="lang-en">Albanian Favorites</span>
                         <span class="lang-sq hidden-lang">Të Preferuarat Shqiptare</span>
                     </h3>
                 </div>
                 <div class="menu-category-card">
-                    <img src="https://placehold.co/400x300/FFCE00/333333?text=German+Specialty" alt="German Cuisine" class="menu-category-image" onerror="this.onerror=null;this.src='https://placehold.co/400x300/E0E0E0/B0B0B0?text=Image+Not+Available';">
+                    <img src="https://i.imgur.com/WqseT1x.jpeg" alt="German Cuisine" class="menu-category-image" onerror="this.onerror=null;this.src='https://placehold.co/400x300/E0E0E0/B0B0B0?text=Image+Not+Available';">
                     <h3 class="menu-category-title text-olive-dark playfair">
                         <span class="lang-en">German Cuisine</span>
                         <span class="lang-sq hidden-lang">Kuzhina Gjermane</span>
                     </h3>
                 </div>
                 <div class="menu-category-card">
-                    <img src="https://placehold.co/400x300/8B4513/FFFFFF?text=Worldly+Brews+%26+Vines" alt="International Beer and Wine" class="menu-category-image" onerror="this.onerror=null;this.src='https://placehold.co/400x300/E0E0E0/B0B0B0?text=Image+Not+Available';">
+                    <img src="https://i.imgur.com/W5VaU34.jpeg" alt="International Beer and Wine" class="menu-category-image" onerror="this.onerror=null;this.src='https://placehold.co/400x300/E0E0E0/B0B0B0?text=Image+Not+Available';">
                     <h3 class="menu-category-title text-olive-dark playfair">
                         <span class="lang-en">International Beer & Wine</span>
                         <span class="lang-sq hidden-lang">Birra & Verëra Ndërkombëtare</span>
@@ -274,10 +262,10 @@
                 <span class="lang-sq hidden-lang">Parajsa Jonë Pastorale</span>
             </h2>
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-                <img src="https://placehold.co/400x300/808000/FFFFFF?text=Sun-Drenched+Olive+Trees" alt="Olives and Wine at Barbas Farm" class="rounded-lg shadow-md object-cover w-full h-48 hover:opacity-80 transition-opacity duration-300 cursor-pointer" onclick="openModal(this.src)" onerror="this.onerror=null;this.src='https://placehold.co/400x300/E0E0E0/B0B0B0?text=Image+Not+Available';">
-                <img src="https://placehold.co/400x300/8B0000/FFFFFF?text=Ripe+Pomegranates+%26+Local+Wine" alt="Pomegranate Dish" class="rounded-lg shadow-md object-cover w-full h-48 hover:opacity-80 transition-opacity duration-300 cursor-pointer" onclick="openModal(this.src)" onerror="this.onerror=null;this.src='https://placehold.co/400x300/E0E0E0/B0B0B0?text=Image+Not+Available';">
-                <img src="https://placehold.co/400x300/DEB887/3A3B3C?text=Cozy+Beer+Garden+Evening" alt="Relaxed Beer Garden" class="rounded-lg shadow-md object-cover w-full h-48 hover:opacity-80 transition-opacity duration-300 cursor-pointer" onclick="openModal(this.src)" onerror="this.onerror=null;this.src='https://placehold.co/400x300/E0E0E0/B0B0B0?text=Image+Not+Available';">
-                <img src="https://placehold.co/400x300/A0522D/FFFFFF?text=Vineyard+Dining+Experience" alt="Relaxed Dining Setting" class="rounded-lg shadow-md object-cover w-full h-48 hover:opacity-80 transition-opacity duration-300 cursor-pointer" onclick="openModal(this.src)" onerror="this.onerror=null;this.src='https://placehold.co/400x300/E0E0E0/B0B0B0?text=Image+Not+Available';">
+                <img src="https://i.imgur.com/ftcrk9C.jpeg" alt="Scenic Views at Barbas Farm" class="rounded-lg shadow-md object-cover w-full h-48 hover:opacity-80 transition-opacity duration-300 cursor-pointer" onclick="openModal(this.src)" onerror="this.onerror=null;this.src='https://placehold.co/400x300/E0E0E0/B0B0B0?text=Image+Not+Available';">
+                <img src="https://i.imgur.com/QI0URwN.jpeg" alt="Catering Available" class="rounded-lg shadow-md object-cover w-full h-48 hover:opacity-80 transition-opacity duration-300 cursor-pointer" onclick="openModal(this.src)" onerror="this.onerror=null;this.src='https://placehold.co/400x300/E0E0E0/B0B0B0?text=Image+Not+Available';">
+                <img src="https://i.imgur.com/tCBierX.jpeg" alt="The Fruits of our Labor" class="rounded-lg shadow-md object-cover w-full h-48 hover:opacity-80 transition-opacity duration-300 cursor-pointer" onclick="openModal(this.src)" onerror="this.onerror=null;this.src='https://placehold.co/400x300/E0E0E0/B0B0B0?text=Image+Not+Available';">
+                <img src="https://i.imgur.com/ZX3DC7W.jpeg" alt="Relaxed Dining Setting" class="rounded-lg shadow-md object-cover w-full h-48 hover:opacity-80 transition-opacity duration-300 cursor-pointer" onclick="openModal(this.src)" onerror="this.onerror=null;this.src='https://placehold.co/400x300/E0E0E0/B0B0B0?text=Image+Not+Available';">
             </div>
             <p class="gallery-text text-center mt-8 text-gray-600">
                 <span class="lang-en">A glimpse of our farm, our food, and our warm, relaxed atmosphere.</span>
@@ -294,80 +282,22 @@
             </h2>
             <div class="text-center max-w-3xl mx-auto">
                 <p class="event-text text-gray-700 leading-relaxed mb-6">
-                    <span class="lang-en">Restaurant Barbas Bio Farm offers a picturesque and charming setting in the heart of Albanian nature, perfect for celebrations big and small. From intimate family gatherings and birthdays to larger parties and corporate events, our unique pastoral atmosphere and dedicated team will make your occasion unforgettable. Enjoy fresh, farm-to-table cuisine in a truly special location.</span> <span class="lang-sq hidden-lang">Restorant Barbas Bio Fermë ofron një ambient piktoresk dhe simpatik në zemër të natyrës shqiptare, perfekt për festime të mëdha dhe të vogla. Nga mbledhjet intime familjare dhe ditëlindjet deri te festat më të mëdha dhe eventet e korporatave, atmosfera jonë unike baritore dhe ekipi ynë i përkushtuar do ta bëjnë rastin tuaj të paharrueshëm. Shijoni kuzhinën e freskët nga ferma në tryezë në një vend vërtet të veçantë.</span>
+                    <span class="lang-en">Restaurant Barbas Bio Farm offers a picturesque and charming setting in the heart of Albanian nature, perfect for celebrations big and small. From intimate family gatherings and birthdays to larger parties and corporate events, our unique pastoral atmosphere and dedicated team will make your occasion unforgettable. Enjoy fresh, farm-to-table cuisine in a truly special location.</span>
+                    <span class="lang-sq hidden-lang">Restorant Barbas Bio Fermë ofron një ambient piktoresk dhe simpatik në zemër të natyrës shqiptare, perfekt për festime të mëdha dhe të vogla. Nga mbledhjet intime familjare dhe ditëlindjet deri te festat më të mëdha dhe eventet e korporatave, atmosfera jonë unike baritore dhe ekipi ynë i përkushtuar do ta bëjnë rastin tuaj të paharrueshëm. Shijoni kuzhinën e freskët nga ferma në tryezë në një vend vërtet të veçantë.</span>
                 </p>
             </div>
             <div class="grid md:grid-cols-2 gap-8 mt-10">
                 <div class="rounded-lg shadow-lg overflow-hidden">
-                    <img src="https://placehold.co/600x400/D2B48C/3A3B3C?text=Elegant+Event+Setup+Albania" alt="Elegant Event Setup" class="w-full h-64 object-cover" onerror="this.onerror=null;this.src='https://placehold.co/600x400/E0E0E0/B0B0B0?text=Image+Not+Available';">
+                    <img src="https://i.imgur.com/0ihtddr.jpeg" alt="Event Setup" class="w-full h-64 object-cover" onerror="this.onerror=null;this.src='https://placehold.co/600x400/E0E0E0/B0B0B0?text=Image+Not+Available';">
                 </div>
                 <div class="rounded-lg shadow-lg overflow-hidden">
-                    <img src="https://placehold.co/600x400/808000/FFFFFF?text=Scenic+Outdoor+Celebration+Farm" alt="Scenic Outdoor Celebration" class="w-full h-64 object-cover" onerror="this.onerror=null;this.src='https://placehold.co/600x400/E0E0E0/B0B0B0?text=Image+Not+Available';">
+                    <img src="https://i.imgur.com/s8xecoy.jpeg" alt="Scenic Outdoor Celebration" class="w-full h-64 object-cover" onerror="this.onerror=null;this.src='https://placehold.co/600x400/E0E0E0/B0B0B0?text=Image+Not+Available';">
                 </div>
             </div>
             <div class="text-center mt-10">
                 <a href="#contact" class="bg-pomegranate hover:bg-pomegranate-light text-white font-semibold py-3 px-6 rounded-lg text-lg transition duration-300">
                     <span class="lang-en">Inquire About Events</span>
                     <span class="lang-sq hidden-lang">Pyesni Për Eventet</span>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <section id="reviews" class="py-16 section-bg-white">
-        <div class="container mx-auto px-6">
-            <h2 class="section-title text-3xl font-bold text-center mb-12 playfair text-olive-dark">
-                <span class="lang-en">What Our Guests Say</span>
-                <span class="lang-sq hidden-lang">Çfarë Thonë Mysafirët Tanë</span>
-            </h2>
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="review-card p-6 rounded-lg shadow-lg">
-                    <div class="flex items-center mb-3">
-                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.971a1 1 0 00.95.69h4.182c.969 0 1.371 1.24.588 1.81l-3.386 2.458a1 1 0 00-.364 1.118l1.287 3.971c.3.921-.755 1.688-1.54 1.118l-3.386-2.458a1 1 0 00-1.175 0l-3.386 2.458c-.784.57-1.838-.197-1.539-1.118l1.287-3.971a1 1 0 00-.364-1.118L2.04 8.399c-.783-.57-.38-1.81.588-1.81h4.182a1 1 0 00.95-.69L9.049 2.927z"></path></svg>
-                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.971a1 1 0 00.95.69h4.182c.969 0 1.371 1.24.588 1.81l-3.386 2.458a1 1 0 00-.364 1.118l1.287 3.971c.3.921-.755 1.688-1.54 1.118l-3.386-2.458a1 1 0 00-1.175 0l-3.386 2.458c-.784.57-1.838-.197-1.539-1.118l1.287-3.971a1 1 0 00-.364-1.118L2.04 8.399c-.783-.57-.38-1.81.588-1.81h4.182a1 1 0 00.95-.69L9.049 2.927z"></path></svg>
-                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.971a1 1 0 00.95.69h4.182c.969 0 1.371 1.24.588 1.81l-3.386 2.458a1 1 0 00-.364 1.118l1.287 3.971c.3.921-.755 1.688-1.54 1.118l-3.386-2.458a1 1 0 00-1.175 0l-3.386 2.458c-.784.57-1.838-.197-1.539-1.118l1.287-3.971a1 1 0 00-.364-1.118L2.04 8.399c-.783-.57-.38-1.81.588-1.81h4.182a1 1 0 00.95-.69L9.049 2.927z"></path></svg>
-                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.971a1 1 0 00.95.69h4.182c.969 0 1.371 1.24.588 1.81l-3.386 2.458a1 1 0 00-.364 1.118l1.287 3.971c.3.921-.755 1.688-1.54 1.118l-3.386-2.458a1 1 0 00-1.175 0l-3.386 2.458c-.784.57-1.838-.197-1.539-1.118l1.287-3.971a1 1 0 00-.364-1.118L2.04 8.399c-.783-.57-.38-1.81.588-1.81h4.182a1 1 0 00.95-.69L9.049 2.927z"></path></svg>
-                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.971a1 1 0 00.95.69h4.182c.969 0 1.371 1.24.588 1.81l-3.386 2.458a1 1 0 00-.364 1.118l1.287 3.971c.3.921-.755 1.688-1.54 1.118l-3.386-2.458a1 1 0 00-1.175 0l-3.386 2.458c-.784.57-1.838-.197-1.539-1.118l1.287-3.971a1 1 0 00-.364-1.118L2.04 8.399c-.783-.57-.38-1.81.588-1.81h4.182a1 1 0 00.95-.69L9.049 2.927z"></path></svg>
-                    </div>
-                    <p class="review-text text-gray-600 italic mb-4">
-                        <span class="lang-en">"An absolutely magical place! The food was fresh from their farm, and the atmosphere was so peaceful. A true taste of Albania. Highly recommend for any celebration!"</span>
-                        <span class="lang-sq hidden-lang">"Një vend absolutisht magjik! Ushqimi ishte i freskët nga ferma e tyre, dhe atmosfera ishte kaq paqësore. Një shije e vërtetë e Shqipërisë. E rekomandoj shumë për çdo festë!"</span>
-                    </p>
-                    <p class="text-gray-800 font-semibold text-right">- Anna B.</p>
-                </div>
-                <div class="review-card p-6 rounded-lg shadow-lg">
-                    <div class="flex items-center mb-3">
-                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.971a1 1 0 00.95.69h4.182c.969 0 1.371 1.24.588 1.81l-3.386 2.458a1 1 0 00-.364 1.118l1.287 3.971c.3.921-.755 1.688-1.54 1.118l-3.386-2.458a1 1 0 00-1.175 0l-3.386 2.458c-.784.57-1.838-.197-1.539-1.118l1.287-3.971a1 1 0 00-.364-1.118L2.04 8.399c-.783-.57-.38-1.81.588-1.81h4.182a1 1 0 00.95-.69L9.049 2.927z"></path></svg>
-                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.971a1 1 0 00.95.69h4.182c.969 0 1.371 1.24.588 1.81l-3.386 2.458a1 1 0 00-.364 1.118l1.287 3.971c.3.921-.755 1.688-1.54 1.118l-3.386-2.458a1 1 0 00-1.175 0l-3.386 2.458c-.784.57-1.838-.197-1.539-1.118l1.287-3.971a1 1 0 00-.364-1.118L2.04 8.399c-.783-.57-.38-1.81.588-1.81h4.182a1 1 0 00.95-.69L9.049 2.927z"></path></svg>
-                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.971a1 1 0 00.95.69h4.182c.969 0 1.371 1.24.588 1.81l-3.386 2.458a1 1 0 00-.364 1.118l1.287 3.971c.3.921-.755 1.688-1.54 1.118l-3.386-2.458a1 1 0 00-1.175 0l-3.386 2.458c-.784.57-1.838-.197-1.539-1.118l1.287-3.971a1 1 0 00-.364-1.118L2.04 8.399c-.783-.57-.38-1.81.588-1.81h4.182a1 1 0 00.95-.69L9.049 2.927z"></path></svg>
-                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.971a1 1 0 00.95.69h4.182c.969 0 1.371 1.24.588 1.81l-3.386 2.458a1 1 0 00-.364 1.118l1.287 3.971c.3.921-.755 1.688-1.54 1.118l-3.386-2.458a1 1 0 00-1.175 0l-3.386 2.458c-.784.57-1.838-.197-1.539-1.118l1.287-3.971a1 1 0 00-.364-1.118L2.04 8.399c-.783-.57-.38-1.81.588-1.81h4.182a1 1 0 00.95-.69L9.049 2.927z"></path></svg>
-                        <svg class="w-5 h-5 text-gray-300" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.971a1 1 0 00.95.69h4.182c.969 0 1.371 1.24.588 1.81l-3.386 2.458a1 1 0 00-.364 1.118l1.287 3.971c.3.921-.755 1.688-1.54 1.118l-3.386-2.458a1 1 0 00-1.175 0l-3.386 2.458c-.784.57-1.838-.197-1.539-1.118l1.287-3.971a1 1 0 00-.364-1.118L2.04 8.399c-.783-.57-.38-1.81.588-1.81h4.182a1 1 0 00.95-.69L9.049 2.927z"></path></svg>
-                    </div>
-                     <p class="review-text text-gray-600 italic mb-4">
-                        <span class="lang-en">"We hosted our anniversary party here and it was perfect. The setting is stunning, service was excellent, and the German beer selection was a hit!"</span>
-                        <span class="lang-sq hidden-lang">"Ne organizuam festën tonë të përvjetorit këtu dhe ishte perfekte. Ambienti është mahnitës, shërbimi ishte i shkëlqyer dhe përzgjedhja e birrave gjermane ishte një sukses!"</span>
-                    </p>
-                    <p class="text-gray-800 font-semibold text-right">- Mark L.</p>
-                </div>
-                <div class="review-card p-6 rounded-lg shadow-lg">
-                     <div class="flex items-center mb-3">
-                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.971a1 1 0 00.95.69h4.182c.969 0 1.371 1.24.588 1.81l-3.386 2.458a1 1 0 00-.364 1.118l1.287 3.971c.3.921-.755 1.688-1.54 1.118l-3.386-2.458a1 1 0 00-1.175 0l-3.386 2.458c-.784.57-1.838-.197-1.539-1.118l1.287-3.971a1 1 0 00-.364-1.118L2.04 8.399c-.783-.57-.38-1.81.588-1.81h4.182a1 1 0 00.95-.69L9.049 2.927z"></path></svg>
-                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.971a1 1 0 00.95.69h4.182c.969 0 1.371 1.24.588 1.81l-3.386 2.458a1 1 0 00-.364 1.118l1.287 3.971c.3.921-.755 1.688-1.54 1.118l-3.386-2.458a1 1 0 00-1.175 0l-3.386 2.458c-.784.57-1.838-.197-1.539-1.118l1.287-3.971a1 1 0 00-.364-1.118L2.04 8.399c-.783-.57-.38-1.81.588-1.81h4.182a1 1 0 00.95-.69L9.049 2.927z"></path></svg>
-                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.971a1 1 0 00.95.69h4.182c.969 0 1.371 1.24.588 1.81l-3.386 2.458a1 1 0 00-.364 1.118l1.287 3.971c.3.921-.755 1.688-1.54 1.118l-3.386-2.458a1 1 0 00-1.175 0l-3.386 2.458c-.784.57-1.838-.197-1.539-1.118l1.287-3.971a1 1 0 00-.364-1.118L2.04 8.399c-.783-.57-.38-1.81.588-1.81h4.182a1 1 0 00.95-.69L9.049 2.927z"></path></svg>
-                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.971a1 1 0 00.95.69h4.182c.969 0 1.371 1.24.588 1.81l-3.386 2.458a1 1 0 00-.364 1.118l1.287 3.971c.3.921-.755 1.688-1.54 1.118l-3.386-2.458a1 1 0 00-1.175 0l-3.386 2.458c-.784.57-1.838-.197-1.539-1.118l1.287-3.971a1 1 0 00-.364-1.118L2.04 8.399c-.783-.57-.38-1.81.588-1.81h4.182a1 1 0 00.95-.69L9.049 2.927z"></path></svg>
-                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.971a1 1 0 00.95.69h4.182c.969 0 1.371 1.24.588 1.81l-3.386 2.458a1 1 0 00-.364 1.118l1.287 3.971c.3.921-.755 1.688-1.54 1.118l-3.386-2.458a1 1 0 00-1.175 0l-3.386 2.458c-.784.57-1.838-.197-1.539-1.118l1.287-3.971a1 1 0 00-.364-1.118L2.04 8.399c-.783-.57-.38-1.81.588-1.81h4.182a1 1 0 00.95-.69L9.049 2.927z"></path></svg>
-                    </div>
-                     <p class="review-text text-gray-600 italic mb-4">
-                        <span class="lang-en">"The best bio farm experience in Albania! Everything is so fresh and the wine selection perfectly complements the meals. A truly relaxing getaway."</span>
-                        <span class="lang-sq hidden-lang">"Përvoja më e mirë bio ferme në Shqipëri! Gjithçka është kaq e freskët dhe përzgjedhja e verërave plotëson në mënyrë perfekte vaktet. Një arratisje vërtet relaksuese."</span>
-                    </p>
-                    <p class="text-gray-800 font-semibold text-right">- Elena K.</p>
-                </div>
-            </div>
-            <div class="text-center mt-10">
-                <a href="https://www.google.com/maps/search/?api=1&query=Restorant+Barbas+Bio+Farm+Daias+Albania" target="_blank" rel="noopener noreferrer" class="bg-olive-dark hover:bg-olive-medium text-white font-semibold py-3 px-6 rounded-lg text-lg transition duration-300">
-                    <span class="lang-en">Read More Reviews on Google</span>
-                    <span class="lang-sq hidden-lang">Lexoni Më Shumë Vlerësime në Google</span>
                 </a>
             </div>
         </div>
@@ -384,14 +314,13 @@
         </div>
     </div>
 
-    <section id="contact" class="py-16 section-bg-offwhite"> <div class="container mx-auto px-6">
+    <section id="contact" class="py-16 section-bg-white"> <div class="container mx-auto px-6">
             <h2 class="section-title text-3xl font-bold text-center mb-12 playfair text-olive-dark">
                 <span class="lang-en">Visit Our Pastoral Retreat</span>
                 <span class="lang-sq hidden-lang">Vizitoni Strehën Tonë Pastorale</span>
             </h2>
             <div class="flex flex-col md:flex-row gap-8">
-                <div class="md:w-1/2 bg-white p-8 rounded-lg shadow-lg"> 
-                    <h3 class="text-xl font-semibold mb-4 text-olive-dark playfair">
+                <div class="md:w-1/2 bg-white p-8 rounded-lg shadow-lg"> <h3 class="text-xl font-semibold mb-4 text-olive-dark playfair">
                         <span class="lang-en">Get In Touch</span>
                         <span class="lang-sq hidden-lang">Na Kontaktoni</span>
                     </h3>
@@ -400,15 +329,15 @@
                             <span class="lang-en">Address:</span>
                             <span class="lang-sq hidden-lang">Adresa:</span>
                         </strong>
-                        <span class="lang-en"> Rruga e Ullinjve, Fshati Barbas, Albania</span>
-                        <span class="lang-sq hidden-lang"> Rruga e Ullinjve, Fshati Barbas, Shqipëri</span>
+                        <span class="lang-en"> Daias, Albania</span>
+                        <span class="lang-sq hidden-lang"> Daias, Shqipëri</span>
                     </p>
                     <p class="contact-text text-gray-700 mb-2">
                         <strong>
-                            <span class="lang-en">Phone for Reservations:</span>
-                            <span class="lang-sq hidden-lang">Telefoni për Rezervime:</span>
+                            <span class="lang-en">Phone:</span>
+                            <span class="lang-sq hidden-lang">Telefoni:</span>
                         </strong>
-                        <a href="tel:+355690000000" class="text-olive-dark hover:text-olive-medium"> +355 69 000 0000</a>
+                        <a href="tel:+355690000000" class="text-olive-dark hover:text-olive-medium"> +355 68 356 7913</a>
                     </p>
                     <p class="contact-text text-gray-700 mb-2">
                         <strong>
@@ -419,11 +348,11 @@
                     </p>
                     <p class="contact-text text-gray-700 mb-4">
                         <strong>
-                            <span class="lang-en">Opening Hours:</span>
-                            <span class="lang-sq hidden-lang">Orari i Punës:</span>
+                            <span class="lang-en">Opening Hours (Beer Garden & Restaurant):</span>
+                            <span class="lang-sq hidden-lang">Orari i Punës (Kopshti i Birrës & Restoranti):</span>
                         </strong><br>
-                        <span class="lang-en">Every day: 10:00 AM - 12:00 AM (Midnight)</span>
-                        <span class="lang-sq hidden-lang">Çdo ditë: 10:00 - 00:00 (Mesnatë)</span>
+                        <span class="lang-en">Every Day: 10:00 AM - 12:00 Midnight</span>
+                        <span class="lang-sq hidden-lang">Çdo ditë: 10:00 - 12:00 mesnatë</span><br>
                     </p>
                     <a href="https://www.google.com/maps/place/Restorant+Barbas+Bio+Farm/@41.2872649,19.8970382,17z/data=!3m1!4b1!4m6!3m5!1s0x1350373eea39027d:0x2e9efad9ff9cfea2!8m2!3d41.2872609!4d19.8996131!16s%2Fg%2F11vt09pfg0?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="inline-block bg-olive-dark hover:bg-olive-medium text-white font-semibold py-2 px-4 rounded-lg transition duration-300">
                         <span class="lang-en">Find Our Farm</span>
@@ -431,16 +360,7 @@
                     </a>
                 </div>
                 <div class="md:w-1/2 h-72 md:h-auto rounded-lg shadow-lg overflow-hidden">
-                    <iframe 
-                        src="https://www.google.com/maps/place/Restorant+Barbas+Bio+Farm/@41.2872649,19.8970382,17z/data=!3m1!4b1!4m6!3m5!1s0x1350373eea39027d:0x2e9efad9ff9cfea2!8m2!3d41.2872609!4d19.8996131!16s%2Fg%2F11vt09pfg0?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D" 
-                        width="100%" 
-                        height="100%" 
-                        style="border:0;" 
-                        allowfullscreen="" 
-                        loading="lazy" 
-                        referrerpolicy="no-referrer-when-downgrade"
-                        title="Restaurant Location Map">
-                    </iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2997.9928121467387!2d19.8996131!3d41.2872609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1350373eea39027d%3A0x2e9efad9ff9cfea2!2sRestorant%20Barbas%20Bio%20Farm!5e0!3m2!1sen!2s!4v1748444804584!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
