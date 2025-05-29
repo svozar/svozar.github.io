@@ -1,6 +1,6 @@
 # svozar.github.io
 svozar github pages
 
-[Barbas Bio Farm](svozar.github.io/barbasbiofarm-web)
+[Barbas Bio Farm](http://svozar.github.io/barbasbiofarm-web)
 
 [Ura e Kovaçit](voskopoje)
